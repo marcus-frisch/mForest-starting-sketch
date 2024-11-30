@@ -9,5 +9,5 @@ While the initial code doesn't represent a forest, it demonstrates how to draw b
 - Open `sketch.js` within your favourite text editor and try to comprehend how the code influences what you see in the browser.
 - Once you're ready to begin, Remove the code within the `sketch.js` file for a blank sketch
 - Refer back to the accompanying  `.pdf` for guidence & instruction
---
 - `marcusAbstraction.js` contains some slightly more advanced code that controls the on screen comments seen when the button is clicked. Trying to understand the concept of how classes and objects are used will be extremely beneficial for PFMS. 
+![Screenshot of the starting sketch within a browser window](https://i.imgur.com/DXxhAa8.png)
