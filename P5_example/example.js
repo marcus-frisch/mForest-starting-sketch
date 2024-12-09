@@ -1,5 +1,5 @@
-function setup() {
-  createCanvas(innerWidth, innerHeight); // Create a canvas matching the full screen size.
+function setup() {  // this function is called only once upon the opening of your html file
+  createCanvas(innerWidth, innerHeight); // Create a canvas matching the full screen size of browser window.
 }
 
 var countedClicks = 0; // Track the number of valid clicks.
@@ -7,9 +7,12 @@ var clickDetected = false; // Flag to detect a mouse click.
 
 function mouseClicked() {
   clickDetected = true; // Set the flag to true when a mouse click occurs.
+  console.log('click');
 }
 
-function draw() {
+function draw() { // this is like the loop() in an arduino. It is automatically called as often as your computer can handle. (Usually matching your FPS).
+  //This allows you to animate or change data shown on the screen unlike the setup function
+  clear();  // clears the canvas from previously drawn shapes
   background(135, 106, 135); // Set a purple background color.
 
   fill(0);
