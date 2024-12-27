@@ -11,3 +11,6 @@ While the example code doesn't represent a forest, it demonstrates how to draw b
 - Refer back to the accompanying  `.pdf` shared on discord for guidence & instruction
 - `P5_example/marcusAbstraction.js` contains some slightly more advanced code that controls the on screen comments seen when the button is clicked. Trying to understand the concept of how classes and objects are used will be extremely beneficial for PFMS. 
 ![Screenshot of the starting sketch within a browser window](https://i.imgur.com/DXxhAa8.png)
+
+## Example of a forest
+![Screenshot of a developed forest](https://i.imgur.com/vBzCeAd.png)
